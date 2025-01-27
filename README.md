@@ -25,6 +25,4 @@ This project serves as a small demo to showcase **Spark** for data processing, *
 2. Install dependencies (PySpark, MLFlow, etc.).
 3. Run Jupyter notebooks in the `notebooks/` folder to see the code and steps in action.
 
-## License
-You can optionally add a license here if you want to clarify usage rights.
 
