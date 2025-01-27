@@ -22,11 +22,11 @@ This project serves as a small demo to showcase **Spark** for data processing, *
 
 ## How to Use
 1. Clone this repo: `git clone https://github.com/<your-username>/spark-mlops-demo.git`
-2. Install dependencies (PySpark, MLFlow, etc.). ```bash pip install -r requirements.txt
+2. Install dependencies (PySpark, MLFlow, etc.). 'pip install -r requirements.txt
 '
-3. Run Jupyter notebooks in the ```bash notebooks/` folder to see the code and steps in action.
+3. Run Jupyter notebooks in the ` notebooks/` folder to see the code and steps in action.
 4. Open pyspark_etl.ipynb or ml_training.ipynb and run the cells.
-5. If you want to see MLflow logs:  ```bash mlflow ui'
+5. If you want to see MLflow logs:  ` mlflow ui'
 6. 
 
 
