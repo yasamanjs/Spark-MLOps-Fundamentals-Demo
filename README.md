@@ -78,4 +78,10 @@ This project uses GitHub Actions to automatically:
 
 See the [Actions](../../actions) tab for build logs.
 
+---
 
+## Future Improvements
+- Unit Tests: Add PyTest tests for data transformations or model code.
+- Docker: Containerize the environment for reproducible runs in CI and local machines.
+- Remote MLFlow: Host MLFlow artifacts in a cloud bucket (AWS S3 or Azure Blob).
+- Deployment: Package the final model into a REST API (e.g., FastAPI) or serverless function.
