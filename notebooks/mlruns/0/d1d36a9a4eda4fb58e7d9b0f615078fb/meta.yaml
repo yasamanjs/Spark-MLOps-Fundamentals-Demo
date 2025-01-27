@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/yjw36/OneDrive%20-%20University%20of%20Missouri/yjw36/jobSeek/New%20projects/20250127%20-%20mlops/spark-mlops-demo/notebooks/mlruns/0/d1d36a9a4eda4fb58e7d9b0f615078fb/artifacts
+end_time: 1738009725622
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d1d36a9a4eda4fb58e7d9b0f615078fb
+run_name: Titanic_Spark_LR
+run_uuid: d1d36a9a4eda4fb58e7d9b0f615078fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738009725390
+status: 4
+tags: []
+user_id: yjw36
