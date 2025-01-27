@@ -2,3 +2,4 @@ pyspark==3.5.4
 mlflow==2.20.0
 requests==2.32.3
 papermill==2.6.0
+ipykernel==6.25.0
