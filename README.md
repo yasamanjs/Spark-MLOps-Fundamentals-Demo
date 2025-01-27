@@ -26,7 +26,7 @@ This project serves as a small demo to showcase **Spark** for data processing, *
 '
 3. Run Jupyter notebooks in the `notebooks/` folder to see the code and steps in action.
 4. Open pyspark_etl.ipynb or ml_training.ipynb and run the cells.
-5. If you want to see MLflow logs: 'mlflow ui' hen open 'http://127.0.0.1:5000.'
+5. If you want to see MLflow logs: 'mlflow ui'
 6. 
 
 
