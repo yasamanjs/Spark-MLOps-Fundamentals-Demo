@@ -8,7 +8,7 @@ This project serves as a small demo to showcase **Spark** for data processing, *
 - **PySpark** for ETL and data transformations
 - **MLFlow** for experiment tracking and model versioning
 - **Jenkins** for CI/CD pipeline automation
-- **Local Hadoop/Spark** (optional) to simulate distributed computing
+- **Local Hadoop/Spark** to simulate distributed computing
 - **Azure** or **GCP** for cloud storage
 - **Git** & **GitHub** for source control
 
