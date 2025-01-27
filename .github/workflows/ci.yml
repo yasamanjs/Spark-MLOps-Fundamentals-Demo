@@ -1,50 +1,12 @@
-name: CI
+- name: Install dependencies
+  run: |
+    pip install --upgrade pip
+    pip install -r requirements.txt
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+- name: Register python3 kernel
+  run: |
+    python -m ipykernel install --user --name python3 --display-name "Python 3"
 
-jobs:
-  build-and-test:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Check out code
-        uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.9"
-
-      - name: Install dependencies
-        run: |
-          pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Run tests
-        run: |
-          echo "Running tests..."
-          ls -R
-
-      - name: Execute ETL Notebook
-        run: |
-          papermill notebooks/pyspark_etl.ipynb notebooks/pyspark_etl_output.ipynb
-
-      - name: Execute ML Training Notebook
-        run: |
-          papermill notebooks/ml_training.ipynb notebooks/ml_training_output.ipynb
-
-      - name: Upload ETL Notebook Artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: etl-output
-          path: notebooks/pyspark_etl_output.ipynb
-
-      - name: Upload ML Notebook Artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: ml-training-output
-          path: notebooks/ml_training_output.ipynb
+- name: Execute ETL Notebook
+  run: |
+    papermill notebooks/pyspark_etl.ipynb notebooks/pyspark_etl_output.ipynb --kernel python3
