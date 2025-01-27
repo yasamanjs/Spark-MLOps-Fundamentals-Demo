@@ -27,6 +27,15 @@ This project serves as a small demo to showcase **Spark** for data processing, *
 3. Run Jupyter notebooks in the ` notebooks/` folder to see the code and steps in action.
 4. Open pyspark_etl.ipynb or ml_training.ipynb and run the cells.
 5. If you want to see MLflow logs:  ` mlflow ui'
-6. 
 
+
+## CI/CD with GitHub Actions
+
+This project uses GitHub Actions to automatically:
+1. Check out the code
+2. Install Python dependencies (PySpark, MLflow, etc.)
+3. (Optional) Run notebooks or tests in headless mode
+4. Provide pass/fail feedback on each commit
+
+See the [Actions](../../actions) tab for build logs.
 
