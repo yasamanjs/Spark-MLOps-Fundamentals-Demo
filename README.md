@@ -1,5 +1,5 @@
 
-# Spark MLOps Demo
+# Spark MLOps Fundamentals -  Demo
 
 ## Purpose
 This project serves as a small demo to showcase **Spark** for data processing, **MLOps** practices, and **CI/CD** integration (using Jenkins) on a simple machine learning workflow.
