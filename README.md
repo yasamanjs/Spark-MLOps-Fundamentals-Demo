@@ -12,7 +12,6 @@ This project serves as a small demo to showcase **Spark** for data processing, *
 - **Local Hadoop/Spark** to simulate distributed computing
 - **Azure** for cloud storage
 - **Git** & **GitHub** for source control
-
   
 ---
 
