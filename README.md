@@ -1,5 +1,5 @@
 
-# Spark MLOps Fundamentals -  Demo
+# CI/CD-Integrated Spark MLOps Pipeline (Titanic Case Study)
 
 
 ## Purpose
